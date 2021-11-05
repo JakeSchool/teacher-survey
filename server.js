@@ -1,7 +1,7 @@
 const express = require('express')
 const math = require("mathjs")
 const app = express()
-const port = 8080
+const port = process.env.PORT || 8080
 
 
 
