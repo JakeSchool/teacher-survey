@@ -1,7 +1,7 @@
 const express = require('express')
 const math = require("mathjs")
 const app = express()
-const port = 80
+const port = 8080
 
 
 
@@ -17,5 +17,5 @@ app.get('/surveyID', (req, res) => {
 })
 
 app.listen(port, "0.0.0.0", () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Example app listening at ${port}`)
 })
