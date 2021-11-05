@@ -2,7 +2,7 @@ $(document).ready(() => {
     var page = 1;
     var surveyDiv = null;
     $("div").hide();
-    $.get("http://10.253.222.8:8080/surveyID", (data, statue) => {
+    $.get("https://teacher-survey.herokuapp.com//surveyID", (data, statue) => {
         surveyDiv = $(".survey-div").eq(parseInt(data));
         surveyDiv.show();
         surveyDiv.children().first().show()
