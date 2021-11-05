@@ -1,0 +1,33 @@
+.survey-div {
+    display: block;
+    width: 100vw;
+    height: 80vh;
+    
+}
+
+.fourm {
+    display: block;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    height: 5vh;
+}
+
+iframe {
+    width: inherit;
+    height: inherit;
+    background-color: #f6f6f6;
+    margin: 0 auto;
+}
+
+#next {
+    display: block;
+    width: 7vw;
+    height: 5vh;
+    margin: 2.5vh auto;
+}
