@@ -1,8 +1,8 @@
 .survey-div {
     display: block;
-    width: 100vw;
+    width: 95vw;
     height: 80vh;
-    
+    justify-content: center;
 }
 
 .fourm {
